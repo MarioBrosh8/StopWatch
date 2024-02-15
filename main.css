@@ -1,0 +1,52 @@
+body{
+    margin: 0 auto;
+    max-width: 80%;
+    font-family: Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.clock{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+    border: solid;
+    margin: 0 7rem;
+    font-size: 3rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button{
+    margin: 1rem;
+    padding: .5rem 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+}
+
+#start{
+    background-color: green;
+}
+
+#stop{
+    background-color: red;
+}
+
+#reset{
+    background-color: rgb(86, 19, 228);
+}
+
+button:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
