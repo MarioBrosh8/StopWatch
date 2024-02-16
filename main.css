@@ -2,6 +2,7 @@ body{
     margin: 0 auto;
     max-width: 80%;
     font-family: Helvetica, sans-serif;
+    max-height: 1000px;
 }
 
 h1{
@@ -15,7 +16,7 @@ h1{
     justify-content: center;
     padding: 1rem;
     border: solid;
-    margin: 0 7rem;
+    margin: 0 30rem;
     font-size: 3rem;
 }
 
@@ -49,4 +50,13 @@ button{
 button:hover{
     opacity: 80%;
     cursor: pointer;
+}
+
+@media (max-width:800px) {
+    h1{
+        font-size: 4rem;
+    }
+    .clock{
+        margin: 0 2rem;
+    }
 }
